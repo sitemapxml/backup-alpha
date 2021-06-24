@@ -17,9 +17,9 @@ while true
     [Yy][Ee][Ss]|[Yy])
     echo "Running backup..."
     sleep 1s
-    
-    
-    
+
+
+
     break
     ;;
 
