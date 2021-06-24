@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# include functions.sh
+if [ -f "includes/functions.sh" ]; then
+  source includes/functions.sh
+else
+  echo "Fatal error. Could not load functions.sh Exiting..."
+  sleep 1s
+  exit 1
+fi
+
+# Main procedure
+while true
+  do
+  read -p "Are you sure you want to run BACKUP? " run_script
+    case $run_script in
+    [Yy][Ee][Ss]|[Yy])
+    echo "Running backup..."
+    sleep 1s
+    
+    
+    
+    break
+    ;;
+
+    [Nn][Oo]|[Nn])
+    echo "Aborting..."
+    sleep 1s
+  break
+  ;;
+  *)
+    echo -e "Please answer with YES or NO."
+  ;;
+  esac
+done
