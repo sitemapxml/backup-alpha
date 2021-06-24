@@ -18,7 +18,15 @@ while true
     echo "Running backup..."
     sleep 1s
 
-
+    fn_create_backup_directory
+    fn_backup_apache
+    fn_backup_nginx
+    fn_backup_php_fpm
+    fn_backup_webmin
+    fn_backup_mysql
+#   fn_backup_mysql_databases
+    fn_backup_web_apps
+    fn_make_archive
 
     break
     ;;
