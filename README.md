@@ -10,7 +10,6 @@ backing up various config files:
 - mysql config files
 - ufw config files
 
-**BACKING UP WEB APPLICATION**
-
+**BACKING UP WEB APPLICATION**<br>
 copying everything inside /var/www/
 or everything inside web root definied in (apache or nginx) configuration file - add to roadmap
