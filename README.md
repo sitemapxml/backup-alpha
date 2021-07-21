@@ -1,5 +1,5 @@
 # backup-alpha
-Experimental backup utility for USet. Currently not recommended for production use.
+Experimental backup utility for USet Currently not recommended for production use.
 
 Running the script:
 ```
